@@ -12,6 +12,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     vb.name = 'vagrant_ubuntu' # set VirtualBox GUI name
   end
 
+  config.vm.synced_folder 'C:/Users/vinpe/workspace', '/workspace'
+
   # Forward some ports to the host
   config.vm.network :forwarded_port, guest: 3000, host: 3000
 
