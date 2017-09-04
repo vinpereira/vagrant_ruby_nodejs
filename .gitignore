@@ -1,0 +1,8 @@
+# Vagrant folder
+.vagrant/
+
+# Logs
+*.log
+
+# Rubocop file
+.rubocop.yml
